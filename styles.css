@@ -1,0 +1,28 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #0f0f0f;
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 100;
+    overflow: hidden;
+}
+
+.timer-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.timer {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 100;
+    font-size: 5em;
+    width: 20em;
+    white-space: nowrap;
+    text-align: center;
+}
