@@ -11,6 +11,32 @@ body {
     overflow: hidden;
 }
 
+h1 {
+    font-weight: 100;
+}
+
+h2 {
+    font-weight: 200;
+    font-size: 18px;
+    color: #ffffff1f;
+}
+
+h2 {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    padding: 10px 0;
+    margin: 0;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
 .timer-container {
     display: flex;
     justify-content: center;
@@ -20,9 +46,10 @@ body {
 
 .timer {
     font-family: 'Montserrat', sans-serif;
-    font-weight: 100;
+    font-weight: 500;
     font-size: 5em;
     width: 20em;
     white-space: nowrap;
     text-align: center;
 }
+
