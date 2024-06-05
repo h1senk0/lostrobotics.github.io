@@ -4,7 +4,8 @@ body {
     align-items: center;
     height: 100vh;
     margin: 0;
-    background-color: #0f0f0f;
+    background: rgb(13,13,13);
+    background: linear-gradient(117deg, rgba(13,13,13,1) 0%, rgba(0,0,0,1) 100%);
     color: #ffffff;
     font-family: 'Montserrat', sans-serif;
     font-weight: 100;
@@ -18,7 +19,7 @@ h1 {
 h2 {
     font-weight: 200;
     font-size: 18px;
-    color: #ffffff1f;
+    color: #ffffff07;
 }
 
 h2 {
