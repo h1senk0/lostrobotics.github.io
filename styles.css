@@ -36,7 +36,7 @@ h2 {
     flex-direction: column;
     align-items: center;
     text-align: center;
-    z-index: 2; /* Ensure content is above background */
+    z-index: 2;
 }
 
 .timer-container {
@@ -47,8 +47,7 @@ h2 {
 }
 
 .timer {
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 500;
+    font-weight: 300;
     font-size: 5em;
     line-height: 1.5em;
     text-align: center;
