@@ -8,8 +8,8 @@ body {
     background: linear-gradient(117deg, rgba(13,13,13,1) 0%, rgba(0,0,0,1) 100%);
     color: #ffffff;
     font-family: 'Montserrat', sans-serif;
-    font-weight: 100;
     overflow: hidden;
+    position: relative;
 }
 
 h1 {
@@ -36,21 +36,25 @@ h2 {
     flex-direction: column;
     align-items: center;
     text-align: center;
+    z-index: 2; /* Ensure content is above background */
 }
 
 .timer-container {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 99%;
+    width: 100%;
 }
 
 .timer {
     font-family: 'Montserrat', sans-serif;
     font-weight: 500;
     font-size: 5em;
-    width: 20em;
-    white-space: nowrap;
+    line-height: 1.5em;
     text-align: center;
 }
 
+.timer span {
+    font-weight: 100;
+    font-size: 0.5em;
+}

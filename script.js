@@ -12,13 +12,13 @@ var x = setInterval(function() {
     var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
     document.getElementById("timer").innerHTML = 
-        (days < 10 ? '0' : '') + days + " : " +
-        (hours < 10 ? '0' : '') + hours + " : " +
-        (minutes < 10 ? '0' : '') + minutes + " : " +
-        (seconds < 10 ? '0' : '') + seconds;
+        (days < 10 ? '0' : '') + days + "<span>" + (days == 1 ? " day" : " days") + "</span><br>" +
+        (hours < 10 ? '0' : '') + hours + "<span>" + (hours == 1 ? " hour" : " hours") + "</span><br>" +
+        (minutes < 10 ? '0' : '') + minutes + "<span>" + (minutes == 1 ? " minute" : " minutes") + "</span><br>" +
+        (seconds < 10 ? '0' : '') + seconds + "<span>" + (seconds == 1 ? " second" : " seconds") + "</span>";
 
     if (distance < 0) {
         clearInterval(x);
-        document.getElementById("timer").innerHTML = "EXPIRED";
+        document.getElementById("timer").innerHTML = "Released";
     }
 }, 1000);
